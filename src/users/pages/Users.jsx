@@ -8,7 +8,7 @@ const Users = () => {
         {
             id:'u1',
             name:'Isshan',
-            image:'https://unsplash.com/photos/empowerment-healthy-lifestyle-relaxation-balance-or-harmony-concept-calm-woman-practice-yoga-meditation-in-hall-lotus-pose-for-less-stress-and-reaching-nirvana-or-zen-cartoon-vector-illustration-6je9XHtxWQ8',
+            image:'https://images.app.goo.gl/avsjQwVwa5893hXMA',
             places:1
             
         }

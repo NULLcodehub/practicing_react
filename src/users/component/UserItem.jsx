@@ -1,11 +1,21 @@
 import React from 'react';
 import './userItem.css'
 
-const UserItem = () => {
+const UserItem = (props) => {
     return (
-        <div>
-            
-        </div>
+        <>  
+            <li className='user-item'>
+                <div className='user-item-content'>
+                    <div className='user-item-image'>
+                        <img src={props.image} alt={props.name} />
+                    </div>
+                    <div className='user-item-info'>
+                        <h3>{props.name}</h3>
+                        <h3>{props.placeCount} {props.placeCount === 1 ? 'Place' : 'Places'}</h3>
+                    </div>
+                </div>
+            </li>
+        </>
     );
 };
 
